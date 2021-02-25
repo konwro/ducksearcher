@@ -5,7 +5,7 @@ import webbrowser
 import time
 
 # Step 1: get list of keywords
-keywords = pd.read_csv(r'/home/wk/OneDrive/KALI/test_run/keywords_ducksearcher/dc_companies.txt')
+keywords = pd.read_csv(r'filepath/file.txt')
 
 print(keywords.shape)
 print(keywords.head)
@@ -20,7 +20,7 @@ print(keywords.head)
 # Step 3: get search results for target strings in web browser
 results_urls = []
 
-for key in keywords['company']:
+for key in keywords['column']:
     browse_url = 'https://duckduckgo.com/?q=' + str(key)
     # print(browse_url)
     results_urls.append(browse_url)
