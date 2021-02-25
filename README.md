@@ -4,7 +4,7 @@ SUMMARY:
 
 TASK: open web search results for keyword in .xlsx, .txt, .csv format in new tabs
 
-Step 0: imports
+Step 0: imports  
 Step 1: get list of keywords
 Step 2: duckduckgo search operators - https://help.duckduckgo.com/duckduckgo-help-pages/results/syntax/
 Step 3: get search results for target strings in web browser
